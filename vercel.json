@@ -2,7 +2,7 @@
   "version": 2,
   "framework": null,
   "functions": {
-    "api/index.php": { "runtime": "vercel-php@0.7.4" }
+    "api/index.php": { "runtime": "vercel-php@0.6.0" }
   },
   "routes": [
     { "src": "/build/(.*)", "dest": "/public/build/" },
@@ -10,7 +10,7 @@
   ],
   "public": true,
   "buildCommand": "php artisan vercel:build",
-  "installCommand": "composer install --no-dev && npm install && npm run build",
+  "installCommand": "curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer && composer install --no-dev && npm install && npm run build",
   "outputDirectory": "public",
   "env": {
     "APP_ENV": "production",
