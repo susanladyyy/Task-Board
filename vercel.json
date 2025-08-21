@@ -14,7 +14,7 @@
     "env": {
         "APP_ENV": "production",
         "APP_DEBUG": "false",
-        "APP_URL": "task-board-git-master-susan-lady-rumokoys-projects.vercel.app",
+        "APP_URL": "task-board-gamma-inky.vercel.app",
         "APP_KEY": "base64:0DyW8gEdscIs7OlRczcCH4gJXeox7Bs9K/2qoGtnA7o=",
         "APP_CONFIG_CACHE": "/tmp/config.php",
         "APP_EVENTS_CACHE": "/tmp/events.php",
