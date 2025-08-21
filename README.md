@@ -1,3 +1,7 @@
+Commands to run first:
+composer install
+npm install
+
 Commands to install packages:
 
 Livewire: composer require livewire/livewire
