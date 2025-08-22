@@ -28,4 +28,5 @@ Start apache and mysql on XAMPP (PHP 8.2.*)
 
 npm run dev (vite) and php artisan serve
 
-Deploy: push to github and automatic upload to vercel.
+Deploy: 
+push to github -> sign up/ sign in to sevalla.com -> create new application (from the github repo) -> create new database (mysql) -> connect database with application -> get all database variables (host, user, password, database name, etc.) -> config env variable (import env from local then config to prodution mode) -> migrate database using web terminal.
